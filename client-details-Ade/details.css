@@ -1,0 +1,57 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.details-avatar{
+display: flex;
+}
+.details-nav{
+   display: grid;
+   grid-template-columns: 1.3fr 1fr .6fr .5fr;
+   padding: 2em 5em 2em 5em;
+}
+.nav-ul{
+   list-style: none;
+display: flex;
+gap: 1em;
+justify-content: space-evenly;
+}
+.details-icon-div{
+   display: flex;
+   justify-content: center;
+   gap: 2em;
+}
+.details-head-container{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   background: #012345;
+   padding: 3em 5em;
+}
+.details-head-container h1{
+   color: white;
+}
+.details-info{
+   display: flex;
+   gap: 3em;
+   color: white;
+}
+.details-profile{
+   color: white;
+}
+.details-head-firstcol{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 1.5em;
+}
+.details-head-secCol{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+.details-submit-btn{
+   background: #1976D3;
+border-radius: 5px;
+border: none;
+}
