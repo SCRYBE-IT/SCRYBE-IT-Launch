@@ -10,10 +10,11 @@ svg,button{
 }
 .details-avatar{
 display: flex;
+gap: .5em;
 }
 .details-nav{
    display: grid;
-   grid-template-columns: 1fr 1.2fr .6fr .5fr;
+   grid-template-columns: 1fr 1.2fr .6fr .6fr;
    padding: 2em 5em 2em 5em;
 }
 .nav-ul{
@@ -223,7 +224,7 @@ padding: 1em;
    justify-content: space-between;
 }
 .info-about-client button{
-   padding: 1em;
+   padding: 1em 1.5em;
    color: #407BFF;
    background: rgba(25, 118, 211, 0.1);
 border-radius: 5px;
@@ -231,6 +232,7 @@ border-radius: 5px;
 .info-about-row1{
    display: flex;
    justify-content: space-evenly;
+   width: 70%;
 }
 .info-main-free{
    display: flex;
