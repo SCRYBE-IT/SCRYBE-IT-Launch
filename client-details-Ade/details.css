@@ -46,6 +46,8 @@ justify-content: space-evenly;
    color: white;
 }
 .details-profile{
+ display:flex; 
+ gap:1em;
    color: white;
 }
 .details-head-firstcol{
@@ -260,4 +262,34 @@ border-radius: 5px;
    flex-direction:column ;
    gap: 2em;
 }
+.submit-proposal-btn{
+   display: flex;
+   width: 80%;
+   color: white;
+    justify-content: space-between;
+    gap: 1em;
+}
+.love-details-btn{
+   background: none;
+    border:#1976D3 1px solid;
+    padding: 1em;
+    border-radius: 5px;
+}
 
+@media(max-width:990px){
+   .submit-proposal-btn{
+flex-direction: column;  
+gap: .5em; }
+   .details-submit-btn{
+      min-width: 100%;
+      padding: 1em;
+      min-width:100% 160px;
+   }
+   .love-details-btn{
+      padding: .5em;
+      min-width: 100% 160px;
+   }
+   .details-profile{
+      gap: .5em;
+   }
+}
